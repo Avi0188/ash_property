@@ -1,11 +1,56 @@
-.propertyImage{
-    position: fixed;
-    overflow: hidden; 
-}
-.main-img{
-    position: fixed;
-   top: 0;
-    width: 99%;
-    height: 400px;
-  
-}
+.propertyImage {
+    position: relative;
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+    font-family: sans-serif;
+  }
+  .main-img {
+    width: 100%;
+    height: 100%;
+    background-image: url("../../assets/homeproperty.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .propertyImage::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  /* Adjust the opacity of the image */
+  .main-img {
+    opacity: 1.2;
+    z-index: 2;
+  }
+  .details {
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    z-index: 999;
+    color: white;
+  }
+  .title {
+    display: flex;
+    align-items: center;
+  }
+  .title p {
+    margin-left: 20px;
+    font-size: 16px;
+  }
+  .line {
+    width: 60px;
+    height: 1px;
+    background-color: white;
+  }
+  .desc {
+    margin-top: 20px;
+  }
+  .heading {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 50px;
+  }
