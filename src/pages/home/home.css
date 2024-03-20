@@ -1,0 +1,11 @@
+.propertyImage{
+    position: fixed;
+    overflow: hidden; 
+}
+.main-img{
+    position: fixed;
+   top: 0;
+    width: 99%;
+    height: 400px;
+  
+}
