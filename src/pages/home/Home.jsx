@@ -6,7 +6,7 @@ import homeproperty from "../../assets/homeproperty.jpg";
 import Heading from "../../components/heading/Heading";
 import Carousel from "../../components/Carousel";
 import Profile from "../../components/Profile/Profile";
-
+import storeimage from "../../assets/storeimage.png"
 const Home = () => {
   // Define array of card details
   const cardDetails = [
@@ -108,8 +108,71 @@ vulputate semper orci neque. Eu egestas et ac sit pellentesque nullam.`}
             <Profile />
             <Profile />
           </div>
+
+{/* top-rated-property */}
+
+          <div className="top-rated-prop-sec"> 
+            <Heading
+            head={"Top Rated Properties"}
+            para={`Lorem ipsum dolor sit amet consectetur. Proin sagittis duis et sed egestas turpis ut aliquet ultricies. Risus vulputate semper orci neque. Eu egestas et ac sit pellentesque nullam.`}
+          />
+          <div className="top-prop-cards-container">
+
+             <div className="top-card">
+
+{/* card 1 */}
+              <div className="top-inner">
+              <div >
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSjEtbcU-d-qqpFHzcw0_IuS6bHBpBftahYQ&usqp=CAU" />
+              </div>
+              <div className="top-card-detail">
+                <h3>Mapkson Gardenia</h3>
+                <span  className="buliders">Mapkson Builders</span>
+                <p className="adress">Greater Kailash, Delhi</p>
+                <p className="bhk">3 Bed 2 bath</p>
+              </div>
+              </div>
+
+{/* card 2 */}
+              <div className="top-inner">
+              <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_JDgzzj6QUUiSVjXQYySyWZ4HMI6TJxkUNw&usqp=CAU" alt="top rated" />
+              </div>
+              <div  className="top-card-detail">
+              <h3>Mapkson Gardenia</h3>
+                <span  className="buliders">Mapkson Builders</span>
+                <p className="adress">Greater Kailash, Delhi</p>
+                <p className="bhk">3 Bed 2 bath</p>
+              </div>
+               </div>
+
+   {/* card 3 */}
+              <div className="top-inner">
+
+              <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGIY_ZI9ah8Rrw5dtPqaHwh829vgS8h5s1UQ&usqp=CAU" />
+              </div>
+              <div  className="top-card-detail">
+              <h3>Mapkson Gardenia</h3>
+                <span  className="buliders">Mapkson Builders</span>
+                <p className="adress">Greater Kailash, Delhi</p>
+                <p className="bhk">3 Bed 2 bath</p>
+              </div>
+             
+              </div>
+             </div>
+             </div>
+            
+          </div>
+         {/* property card ended here */}
+          
         </div>
+        <div className="storeimage">
+      <img src={storeimage} alt="" />
+    </div>
       </div>
+
+    
     </>
   );
 };
