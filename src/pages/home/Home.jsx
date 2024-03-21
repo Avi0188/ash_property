@@ -172,7 +172,7 @@ vulputate semper orci neque. Eu egestas et ac sit pellentesque nullam.`}
     </div>
       </div>
 
-    
+    <Footer />
     </>
   );
 };

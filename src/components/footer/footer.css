@@ -1,0 +1,42 @@
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 2%;
+    background-color: #51b95a;
+    padding: 50px;
+  }
+  
+  .footer-logo {
+    width: 30px;
+    margin-left: 2%;
+  }
+  
+  .socialmedia-app {
+    display: flex;
+    gap: 10px;
+  }
+  
+  #first-col {
+    margin: auto;
+    text-align: start;
+    font-size: medium;
+    margin-top: -10px;
+  }
+  
+  #second-col, #third-col {
+    margin: auto;
+    text-align: start;
+    font-size: medium;
+  }
+  
+  #third-col {
+    margin-top: -10px; 
+  }
+  
+  #second-col p,
+  #third-col p,
+  #third-col input {
+    margin-bottom: 10px;
+  }
+  

@@ -10,8 +10,9 @@ const Navbar = () => {
             src="https://scalebranding.com/wp-content/uploads/2021/04/1-140.jpg"
             alt="logo"
           />
-          <div>
-            <h4>Trophy nig</h4>
+          <div className="logo-details">
+            <h4 className="trophynig">Trophy nig.</h4>
+            <span className="trophyltd">PROPERTY LIMITED</span>
           </div>
         </div>
         <div className="navinfo">
