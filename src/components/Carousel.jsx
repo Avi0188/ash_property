@@ -3,6 +3,8 @@ import React from "react";
 function Carousel({ card }) {
   return (
     <>
+      
+
       <div className="card" key={card.id}>
         <div className="card-details">
           <div className="card-img">

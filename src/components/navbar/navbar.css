@@ -12,32 +12,33 @@
   align-items: center;
   justify-content: space-between;
 }
+
 .logo {
   margin-top: 5px;
   width: 11%;
   box-sizing: border-box;
- text-align: center;
+  text-align: center;
 }
+
 .logo img {
   width: 70%;
   margin-left: 12px;
-
 }
-.logo-details{
+
+.logo-details {
   font-size: large;
-
 }
+
 .logo-details .trophynig {
   font-size: larger;
-color: green;
+  color: green;
 }
+
 .logo-details .trophyltd {
   font-size: xx-small;
   font-family: serif;
   font-weight: bold;
-
 }
-
 
 .navinfo {
   width: 70%;
@@ -45,16 +46,73 @@ color: green;
   align-items: center;
   justify-content: space-between;
 }
+
 .navContainer div p {
   color: #51b95a;
   font-weight: bold;
   font-family: sans-serif;
   font-size: 16px;
+  cursor: pointer;
 }
+
 select {
   padding: 15px;
   border: none;
   border-radius: 5px;
   background-color: #51b95a;
   color: white;
+  cursor: pointer; 
+}
+
+.navContainer div svg {
+  cursor: pointer;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+  .navContainer {
+    width: 90%; 
+  }
+.navinfo{
+  display: none;
+}
+  .logo {
+    width:10%; 
+    text-align: center; 
+  }
+
+  .logo img {
+    width: 100%; 
+    margin-left: 0; 
+
+  .navinfo {
+    display: none; 
+  }
+
+  select {
+    display: block; 
+    margin-top: 10px; 
+  }
+
+  .social {
+    display: none; 
+  }
+
+  
+}
+
+/* For screens smaller than 576px */
+@media screen and (max-width: 576px) {
+  .navContainer {
+    width: 95%;
+  }
+
+  .logo {
+    width: 5%; 
+  }
+
+
+}
 }

@@ -5,6 +5,13 @@
   overflow: hidden;
   font-family: sans-serif;
 }
+.card-section .card {
+  cursor: pointer;
+}
+
+.top-card {
+  cursor: pointer; 
+}
 
 .main-img {
   width: 100%;
@@ -227,4 +234,53 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 .storeimage>img{
  width: 70%;
 margin-left: 180px;
+}
+
+@media screen and (max-width: 768px) {
+
+  .propertyImage {
+    height: 500px;
+  }
+
+  
+  .card-section {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+
+  .card {
+    width: 100%;
+  }
+
+
+  .top-card {
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+  }
+
+ 
+  .top-card img {
+    width: 100%;
+    height: auto;
+  }
+
+  
+  .storeimage {
+    margin-top: 30px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .storeimage {
+    margin-top: 30px;
+  }
+
+  .storeimage > img {
+    width: 100%;
+    margin-left: auto; 
+    margin-right: auto;
+  }
 }
