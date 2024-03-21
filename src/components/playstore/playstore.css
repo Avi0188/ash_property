@@ -1,0 +1,51 @@
+.playstore-div {
+    display: flex;
+    background-color: #f0f0f0;
+    margin: 10%;
+    padding: 3%;
+    text-align: left;
+    height: 290px;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.playstore-div > div:first-child {
+    margin-right: 5%;
+}
+
+.playstore-div > div:last-child {
+    margin-left: 5%;
+}
+
+.playstore-div .heading {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.playstore-div .sub-heading {
+    font-size: 18px;
+}
+
+.playstore-div .feature {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.playstore-div .checkmark-icon {
+    margin-right: 5px;
+}
+
+.playstore-div .logo {
+    width: 50%;
+    margin-top: 20px;
+}
+.logo:hover{
+    cursor: pointer;
+    
+}
+
+.playstore-div .phone {
+    margin-top: 7%;
+}

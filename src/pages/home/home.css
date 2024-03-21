@@ -226,7 +226,7 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 }
 
-.storeimage{
+/* .storeimage{
 
   box-sizing: border-box;
   margin-top: 50px;
@@ -234,7 +234,7 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 .storeimage>img{
  width: 70%;
 margin-left: 180px;
-}
+} */
 
 @media screen and (max-width: 768px) {
 

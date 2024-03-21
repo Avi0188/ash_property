@@ -7,6 +7,7 @@ import Heading from "../../components/heading/Heading";
 import Carousel from "../../components/Carousel";
 import Profile from "../../components/Profile/Profile";
 import storeimage from "../../assets/storeimage.png"
+import Playstore from "../../components/playstore/Playstore";
 const Home = () => {
   // Define array of card details
   const cardDetails = [
@@ -167,10 +168,9 @@ vulputate semper orci neque. Eu egestas et ac sit pellentesque nullam.`}
          {/* property card ended here */}
           
         </div>
-        <div className="storeimage">
-      <img src={storeimage} alt="" />
-    </div>
+        
       </div>
+    <Playstore />
 
     <Footer />
     </>

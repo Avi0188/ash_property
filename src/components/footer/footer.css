@@ -45,6 +45,9 @@
     padding-top: 6px;
     padding-bottom: 6px;
   }
+  #third-col>button:hover{
+    cursor: pointer;
+  }
   #third-col input {
     margin: 10px;
    padding: 8px;
