@@ -1,19 +1,17 @@
 import React from "react";
 import "./navbar.css";
 import { CgProfile } from "react-icons/cg";
+import logo from "../../assets/mainlogo.png"
 const Navbar = () => {
   return (
     <div className="main">
       <div className="navContainer fixed">
         <div className="logo">
           <img
-            src="https://scalebranding.com/wp-content/uploads/2021/04/1-140.jpg"
+            src={logo}
             alt="logo"
           />
-          <div className="logo-details">
-            <h4 className="trophynig">Trophy nig.</h4>
-            <span className="trophyltd">PROPERTY LIMITED</span>
-          </div>
+    
         </div>
         <div className="navinfo">
           <div>

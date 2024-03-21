@@ -3,13 +3,14 @@
     justify-content: space-around;
     margin: auto;
     margin-top: 2%;
-    background-color: #51b95a;
+    background-color:rgb(51, 101, 51);
     padding: 50px;
   }
   
   .footer-logo {
-    width: 30px;
+    width: 100px;
     margin-left: 2%;
+    margin-bottom: 20px;
   }
   
   .socialmedia-app {
@@ -33,7 +34,24 @@
   #third-col {
     margin-top: -10px; 
   }
-  
+  #third-col>h4 {
+    margin-left: 10px;
+    
+  }
+  #third-col>button{
+   margin-left: 10px;
+    display: block;
+    padding: 3px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+  #third-col input {
+    margin: 10px;
+   padding: 8px;
+  }
+  .green{
+    color: green;
+  }
   #second-col p,
   #third-col p,
   #third-col input {

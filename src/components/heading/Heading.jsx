@@ -5,7 +5,8 @@ function Heading({ head, para }) {
   return (
     <>
       <h1>{head}</h1>
-      <div>
+     
+      <div style={{marginTop:"15px"}}>
         <p>{para}</p>
       </div>
     </>

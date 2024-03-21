@@ -6,11 +6,12 @@ import {
   FaInstagram,
   FaTwitter,
 } from "react-icons/fa";
+import logo from "../../assets/mainlogo.png"
 const Footer = () => {
   return (
     <div className='footer-container'>
       <div id='first-col'>
-     <img className='footer-logo'  src="https://scalebranding.com/wp-content/uploads/2021/04/1-140.jpg" alt="logo" />
+     <img className='footer-logo'  src={logo} alt="logo" />
      <div className='socialmedia-app'>
      <FaFacebookF />
      <FaInstagram />
@@ -37,8 +38,8 @@ const Footer = () => {
       <div id='third-col'>
 <h4>Stay Upto Date</h4>
 <input type="email" placeholder='Enter Your Email Adress' />
+<button>Subscribe For <span className='green' >Newsletter &gt;&gt;</span> </button>
 
-<h4>Subscribe For Newsletter &gt;&gt;</h4>
       </div>
     </div>
   )

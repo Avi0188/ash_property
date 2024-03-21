@@ -80,7 +80,7 @@ const Home = () => {
           />
           {/* card component */}
           <div className="card-section">
-            {cardDetails.map((card) => (
+            {cardDetails?.map((card) => (
               <Carousel card={card} />
             ))}
           </div>
