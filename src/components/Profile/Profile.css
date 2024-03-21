@@ -1,0 +1,67 @@
+.profile-card {
+    width: 22%;
+    border-radius: 5px;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .profile-card:hover {
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+      rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  }
+  
+  .profile-card:hover .prof-img img {
+    transform: scale(1.1); /* Zoom in effect */
+  }
+  
+  .prof-img {
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 100%;
+    overflow: hidden;
+    transition: transform 0.3s ease; /* Smooth transition for zoom effect */
+  }
+  
+  .prof-img img {
+    width: 100%;
+    border-radius: 100%;
+  }
+  
+  .pro-name {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  
+  #pro-profess {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
+  .social {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    justify-content: center;
+    gap: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .profile-card:hover .social {
+    opacity: 1;
+  }
+  
+  .social > div {
+    transition: opacity 0.3s ease;
+  }
+  
+  .social > div:hover {
+    opacity: 0.7;
+  }
+  

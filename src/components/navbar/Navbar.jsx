@@ -1,5 +1,6 @@
 import React from "react";
 import "./navbar.css";
+import { CgProfile } from "react-icons/cg";
 const Navbar = () => {
   return (
     <div className="main">
@@ -32,6 +33,10 @@ const Navbar = () => {
           <div>
             <p>Contact us</p>
           </div>
+         <div>
+         <CgProfile />
+         </div>
+
           <div>
             <select name="" id="">
               <option value="">Create Listing</option>
@@ -44,4 +49,5 @@ const Navbar = () => {
     </div>
   );
 };
+
 export default Navbar;
