@@ -52,7 +52,58 @@
 
 @media only screen and (max-width: 599px) {
     .playstore-div {
-       display: none;
+      box-sizing: border-box;
+      padding: 0 20px; 
+      margin-left: 150px; 
+      overflow: hidden; 
     }
+  
+    .playstore-div > div:first-child {
+      margin-right: 2%;
+    }
+  
+    .playstore-div > div:last-child {
+      margin-left: 2%;
+    }
+  
+    .playstore-div .heading {
+      font-size: 18px;
+      margin: auto;
+    }
+  
+    .playstore-div .sub-heading {
+      font-size: 10px;
+    }
+  
+    .playstore-div .feature {
+      display: flex;
+      align-items: center;
+      font-size: 10px;
+      margin-top: 20px;
+    }
+  
+    .playstore-div .checkmark-icon {
+      margin-right: 5px;
+    }
+  
+    .playstore-div .logo {
+      width: 50%;
+      margin-top: 20px;
+    }
+  
+    .playstore-div .phone {
+      margin-top: 12%;
+    }
+  }
+  @media only screen and (max-width: 528px) {
+    .playstore-div {
+    display: none;
+      }
+      
+    /* .playstore-div .phone {
+      display: none;
+
+      } */
     
-}
+
+  }

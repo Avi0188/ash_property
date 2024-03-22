@@ -38,6 +38,8 @@ const Home = () => {
       capacity: "3 Bed 2 bath",
       manager: "Managed by JR Developers",
     },
+ 
+    
   ];
 
   const [isMouseEnt, setMouseEnt] = useState(false);
@@ -81,9 +83,14 @@ const Home = () => {
           />
           {/* card component */}
           <div className="card-section">
-            {cardDetails?.map((card) => (
-              <Carousel card={card} />
-            ))}
+            {/* {cardDetails?.map((card) => ( */}
+         
+              <Carousel card={cardDetails} />
+            
+                
+            
+            
+            {/* ))} */}
           </div>
           <div style={{ marginTop: "80px" }}>
             <Heading

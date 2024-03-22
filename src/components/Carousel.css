@@ -1,0 +1,38 @@
+.dots {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; /* Adjust spacing from the carousel */
+  }
+  
+  .dots li {
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 0 5px; /* Adjust spacing between dots */
+    cursor: pointer;
+  }
+  
+  .dots li.active {
+    background-color: #555; /* Change active dot color */
+  }
+  /* .slick-slide {
+    margin: 1px; 
+  } */
+/* .card{
+    width: 100%;
+}
+  .card-details{
+    margin: auto;
+    width: 100px;
+  } */
+  .slider-container{
+    width: 100%;
+  }
+
+  .card>.card-details{
+    width: 90%;
+    margin: auto;
+  }
+ 
