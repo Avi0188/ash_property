@@ -36,7 +36,7 @@ const Navbar = () => {
          <CgProfile />
          </div>
 
-          <div>
+          <div className="select-tag">
             <select name="" id="">
               <option value="">Create Listing</option>
               <option value="">House</option>

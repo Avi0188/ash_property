@@ -116,3 +116,23 @@ select {
 
 }
 }
+
+@media only screen and (min-width: 769px) and (max-width: 999px) {
+  .navinfo {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    left: 30px;
+
+  }
+  .navinfo>div {
+   font-size: small;
+  }
+  .select-tag > select{
+    padding: 3px;
+  width: 70px;
+
+  }
+}
