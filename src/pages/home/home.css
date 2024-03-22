@@ -236,51 +236,81 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 margin-left: 180px;
 } */
 
-@media screen and (max-width: 768px) {
-
+@media only screen and (max-width: 599px) {
   .propertyImage {
-    height: 500px;
+    position: relative;
+    width: 598px;
+    height: 300px;
+    overflow: hidden;
+    font-family: sans-serif;
   }
-
-  
+  .details {
+    position: absolute;
+    top: 20%;
+    left: 8%;
+    z-index: 999;
+    color: white;
+  }
+  .desc {
+    margin-top: 5px;
+  }
+  .heading {
+    font-size: 35px;
+  }
+  .desc p {
+    width: 90%;
+    font-size: 14px;
+  }
+  .btn {
+    width: 30%;
+  }
+  .btn button {
+    width: 100%;
+    padding: 10px;
+  }
+  .main-section {
+    width: 598px;
+  }
+  .section {
+    margin-top: 20px;
+  }
+  .section h1 {
+    font-size: 20px;
+  }
+  .section div p {
+    font-size: 13px;
+  }
   .card-section {
+    width: 100%;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
   }
-
-
   .card {
-    width: 100%;
+    width: 90%;
   }
-
-
-  .top-card {
+  .design {
+    margin-top: 40px;
+  }
+  .profile-sec {
+    margin-top: 30px;
+    display: flex;
     flex-direction: column;
-    height: auto;
+    gap: 30px;
+  }
+  .top-prop-cards-container {
+    margin-top: 30px;
+  }
+  .top-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     gap: 20px;
+    height: 500px;
+    margin: auto;
+    justify-content: space-between;
   }
-
- 
-  .top-card img {
-    width: 100%;
-    height: auto;
-  }
-
-  
-  .storeimage {
-    margin-top: 30px;
-  }
-}
-
-
-@media screen and (max-width: 768px) {
-  .storeimage {
-    margin-top: 30px;
-  }
-
-  .storeimage > img {
-    width: 100%;
-    margin-left: auto; 
-    margin-right: auto;
+  .top-card-detail {
+    margin-top: 5%;
+    margin-right: 5%;
   }
 }
