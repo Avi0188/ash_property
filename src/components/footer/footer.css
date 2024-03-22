@@ -66,8 +66,8 @@
   @media only screen and (max-width: 599px) {
     .footer-container {
       width: 598px;
-      display: flex;
-      flex-direction: column;
+      /* display: flex;
+      flex-direction: column; */
       margin-top: 10%;
       padding: 0px;
     }
@@ -76,5 +76,20 @@
       text-align: start;
       font-size: medium;
       margin-top: 10px;
+    }
+    #third-col {
+      margin-top: 10px; 
+    }
+    #first-col {
+      margin: auto;
+      text-align: start;
+      font-size: medium;
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+    
+    }
+    #first-col>p {
+      margin: 2px;
     }
   }

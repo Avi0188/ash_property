@@ -49,3 +49,10 @@
 .playstore-div .phone {
     margin-top: 7%;
 }
+
+@media only screen and (max-width: 599px) {
+    .playstore-div {
+       display: none;
+    }
+    
+}
